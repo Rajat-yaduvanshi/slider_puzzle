@@ -69,7 +69,6 @@ const Board = ({ onMove, onComplete, onReset, moves, puzzle, complete }) => {
       onComplete();
     }
   };
-
   
   useEffect(() => {
     if (!puzzle.length) {

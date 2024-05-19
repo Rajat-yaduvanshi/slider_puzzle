@@ -22,7 +22,7 @@ const App = () => {
 
     return newPuzzle;
   };
-
+  
   const handleMove = (newPuzzle) => {
     setPuzzle(newPuzzle);
     setMoves(moves + 1);
