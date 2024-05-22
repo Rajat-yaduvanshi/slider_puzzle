@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body{
+
+ background-color: rgb(226, 241, 255);
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+margin: 20px;
+  padding-top: 5%; /* Add space at the top of the body */
+}
 .App {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 20px; /* Add margin for spacing */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,16 +24,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+   
   }
 }
 
 
 .container {
-  max-width: 380px;
+  max-width: 700px;
   margin-left: 20px;
   padding: 20px;
-  background-color: #cadff4;
+  background-color: #fcffc3;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: #070218; /* Gold text color */
